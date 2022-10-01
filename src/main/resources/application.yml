@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mariadb://localhost:3306/demo
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+jwt:
+  secret: fkndsngfkjn3jk45bn3jh4tnfbkjdsnmflkds
+  expired:
+    accessToken: 5
+    refreshToken: 10
